@@ -8,7 +8,6 @@ import SideMenu from './sideMenu';
 import CalendarView5961Navigator from '../features/CalendarView5961/navigator';
 import EmailAuth5960Navigator from '../features/EmailAuth5960/navigator';
 import Messaging5959Navigator from '../features/Messaging5959/navigator';
-import CalendarView5958Navigator from '../features/CalendarView5958/navigator';
 import EmailAuth5957Navigator from '../features/EmailAuth5957/navigator';
 import Messaging5956Navigator from '../features/Messaging5956/navigator';
 import CalendarView5955Navigator from '../features/CalendarView5955/navigator';
@@ -33,7 +32,6 @@ const AppNavigator = {
 CalendarView5961: { screen: CalendarView5961Navigator },
 EmailAuth5960: { screen: EmailAuth5960Navigator },
 Messaging5959: { screen: Messaging5959Navigator },
-CalendarView5958: { screen: CalendarView5958Navigator },
 EmailAuth5957: { screen: EmailAuth5957Navigator },
 Messaging5956: { screen: Messaging5956Navigator },
 CalendarView5955: { screen: CalendarView5955Navigator },
