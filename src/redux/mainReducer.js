@@ -9,7 +9,6 @@ import { combineReducers } from "redux";
 import CalendarView5955Reducer from '../features/CalendarView5955/redux/reducers';
 import EmailAuth5954Reducer from '../features/EmailAuth5954/redux/reducers';
 import EmailAuth5934Reducer from '../features/EmailAuth5934/redux/reducers';
-import CalendarView5933Reducer from '../features/CalendarView5933/redux/reducers';
 import EmailAuth5931Reducer from '../features/EmailAuth5931/redux/reducers';
 import CalendarView5930Reducer from '../features/CalendarView5930/redux/reducers';
 import CalendarReducer from '../features/Calendar/redux/reducers';
@@ -26,7 +25,6 @@ export const combinedReducers = combineReducers({
 CalendarView5955: CalendarView5955Reducer,
 EmailAuth5954: EmailAuth5954Reducer,
 EmailAuth5934: EmailAuth5934Reducer,
-CalendarView5933: CalendarView5933Reducer,
 EmailAuth5931: EmailAuth5931Reducer,
 CalendarView5930: CalendarView5930Reducer,
 Calendar: CalendarReducer,
