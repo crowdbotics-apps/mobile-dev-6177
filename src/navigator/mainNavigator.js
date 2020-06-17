@@ -8,7 +8,6 @@ import SideMenu from './sideMenu';
 import Messaging5971Navigator from '../features/Messaging5971/navigator';
 import CalendarView5970Navigator from '../features/CalendarView5970/navigator';
 import EmailAuth5969Navigator from '../features/EmailAuth5969/navigator';
-import BlankScreen45968Navigator from '../features/BlankScreen45968/navigator';
 import BlankScreen15967Navigator from '../features/BlankScreen15967/navigator';
 import BlankScreen15965Navigator from '../features/BlankScreen15965/navigator';
 import CalendarView5961Navigator from '../features/CalendarView5961/navigator';
@@ -36,7 +35,6 @@ const AppNavigator = {
 Messaging5971: { screen: Messaging5971Navigator },
 CalendarView5970: { screen: CalendarView5970Navigator },
 EmailAuth5969: { screen: EmailAuth5969Navigator },
-BlankScreen45968: { screen: BlankScreen45968Navigator },
 BlankScreen15967: { screen: BlankScreen15967Navigator },
 BlankScreen15965: { screen: BlankScreen15965Navigator },
 CalendarView5961: { screen: CalendarView5961Navigator },
